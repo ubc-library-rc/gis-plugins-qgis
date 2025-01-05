@@ -8,19 +8,20 @@ has_children: true
 
 This workshop is meant to extend basic knowledge of QGIS by exploring common plugins. Familiarity of the QGIS is therefore a prerequisite. By the end of this workshop, participants will be able to use plugins to 
 
-- access dynamic basemaps hosted on web servers
-- download and query Open Street Map (OSM) data 
-- geocode address data from a spreadsheet, and
+- Access dynamic basemaps hosted on web servers
+- Query and download Open Street Map (OSM) data 
+- Geocode address data from a spreadsheet, and
 <!--use list of libraries; or use public art data but in csv format-->
-- create an interactive webmap from a QGIS project
+- Create an interactive webmap from a QGIS project (see below for example)
 <!-- add next steps directions for hosting webmap on github pages -->
 
 
-[embed examples]
+
+<iframe src="./content/qgis2web/index.html" style="width:100%; height:630px; border:none;"> </iframe>
+
 
 <br>
-<br>
-<br>
+
 
 
 ## Before the Workshop
