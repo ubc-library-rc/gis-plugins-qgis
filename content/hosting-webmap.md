@@ -115,7 +115,11 @@ Change branch from Non to **main** and **SAVE**.
 
 Once you hit save, give it a moment to build. After a minute or two, refresh your browser window. You should see a link now to your new website! Visit the site and explore your map once again. Now you can share it far and wide!
 
+<img src="./images/github-hosted-map_20250106.png" style="width:100%">
 
+
+
+One last step:
 Copy the link and return to your repo code. In the **About** section at the top right, add this link so that visitors to your repository can also access your website. 
 
 
