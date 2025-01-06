@@ -26,22 +26,22 @@ nav_order: 3
 <br> 
 
 *4*{: .circle .circle-purple} 
-In the dialogue box that opens, you can choose which attributes to query and download, as well as the geographic extent to download in. 
+In the dialogue box that opens, you can choose which attributes to query and download, as well as the geographic extent to query and download from. 
 
-The extent you choose will depend on what OSM data you're downloading. For instance, if you're downloading buildings or roads, you definitely don't want to download data for the whole world as this will cause your computer to crash. A good extent to set is a city or research area. You can set the extent to a layer from your project, or draw it yourself on the map. In today's workship, we will download OSM data on artwork, specifically murals, within the extent of Vancouver's shoreline. So, input the relevant parameters:
+The extent you choose will depend on what OSM data you're downloading. For instance, if you're downloading buildings or roads, you definitely don't want to download data for the whole world as this will cause your computer to crash. Set your extent to your research area. You can set the extent to a layer from your project, or draw the extent yourself  on the map canvas. **In today's workship, we will download OSM data on artwork, specifically murals, within the extent of Vancouver's shoreline. So, input the relevant parameters:**
 
 ![quick osm query](./images/quick-osm-query.png)
     
 <br>
 
-If you switch to the OSM File tab in the dialog window, you can see how the tool is searching and where it's saving extracted data. Let's keep our outputs as a temporary files for now. 
+If you switch to the OSM File tab in the dialog window, you can see how the tool is searching and where it's saving extracted data. Let's **keep our outputs as a temporary files for now.** 
 
-Run the query. 
+**Run the query.**
     
 <br>
 <br>
 
-*5*{: .circle .circle-purple} Drag the output file `artwork_type_mural` to the top of your Layers Panel. Change the symbology if necessary to differentiate it from your other layers and the basemap. 
+*5*{: .circle .circle-purple} Drag the output file `artwork_type_mural` to the top of your Layers Panel. Change the symbology if necessary to differentiate it from your other layers and the basemap. Your new layer of extracted OSM data will look something like this:
 
 ![artwork type mural](./images/artwork-type-mural_20241215.png)
 
