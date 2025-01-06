@@ -28,7 +28,7 @@ This workshop is meant to extend basic knowledge of QGIS by exploring common plu
 
 >-   **Download QGIS!** QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site/forusers/download.html). In most cases, you'll want to download and install the **Long term release** instead of the latest release - currently **QGIS 3.34.6 'Prizren'**. This will give you most of the functionality you'll need, without encountering the software bugs of newly released versions. [See here](https://ubc-library-rc.github.io/gis-intro-qgis/content/installing-qgis.html) for further guidance.
 
-> - [Download Workshop Data](https://ubc-library-rc.github.io/gis-plugins-qgis/content/qgis-plugins-workshop.zip){: .btn .btn-blue }
+> - [Download Workshop Data](./qgis-plugins-workshop.zip){: .btn .btn-blue }
 
 > - **Familiarity with the QGIS interface is prerequisite for this workshop.** Check out the Research Commons' [Map Production with QGIS](https://ubc-library-rc.github.io/gis-intro-qgis/) and [Tools and Workflows in QGIS](https://ubc-library-rc.github.io/gis-tools-workflows/) workshops if you are new to GIS, or your background is in Esri ArcGIS products. You can also browse the QGIS Documentation's [Getting Started](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/getting_started.html) for a refresher. 
 Familiarity with QGIS is prerequisite for this workshop. 
