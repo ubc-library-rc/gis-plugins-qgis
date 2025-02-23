@@ -20,7 +20,6 @@ This workshop is meant to extend basic knowledge of QGIS by exploring common plu
 <iframe src="./content/qgis2web/index.html" style="width:100%; height:630px; border:none;"> </iframe>
 
 
-<br>
 
 
 
