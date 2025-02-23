@@ -6,7 +6,7 @@ nav_order: 4
 ---
 
 # Geocoding Address Data
-Geocoding is when you have a set of addresses and you want to geolocate them so as to manipulate them in a GIS. Geocoding transforms tabular data into spatial data. Reverse Geocoding is when you begin with a set of geolocated points (coordinates) and use a tool to get the addresses of each point. 
+Geocoding is when you have a set of addresses and you want to geolocate them so as to manipulate them in a GIS. Geocoding transforms tabular data into spatial data. Reverse Geocoding is when you begin with a set of geolocated points (coordinates) and use a tool to get the addresses of each point. This page will guide you through geocoding using the [**MMQGIS** plugin](https://plugins.qgis.org/plugins/mmqgis/). 
 
 
 <br>
