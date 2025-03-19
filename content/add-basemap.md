@@ -5,7 +5,7 @@ nav_order: 2
 ---
 # Add basemaps with QuickMapServices plugin
 
-A basemap is helpful to give spatial context to your data as you work. One way to add a basemap is through a plugin. Two popular plugins for accessing basemaps are **QuickMapServices** and **OpenLayers**. Installing either of these plugins will connect you to a host of different basemaps which you can browse and add to your project all within your QGIS interface. This workshop will fos on **QuickMapServices**. 
+A basemap is helpful to give spatial context to your data as you work. One way to add a basemap is through a plugin. Two popular plugins for accessing basemaps are **QuickMapServices** and **OpenLayers**. Installing either of these plugins will connect you to a host of different basemaps which you can browse and add to your project all within your QGIS interface. This workshop will use **QuickMapServices**. 
 
 <br>
 
@@ -23,7 +23,7 @@ To access basemaps, we'll first install the QuickMapServices plugin. Click on th
 <br>
   
 *3*{: .circle .circle-purple} 
-Now go to the **Web** menu at the top of your screen. You should see the QuickMapServices plugin. Hover over it. Go to the "Settings" at the bottom of the menu that pops up. In the settings, go to the "More services" tab and click "Get contributed pack." Click **save** to close settings and return to the **Web** menu. This time when you hover over the QuickMapServices plugin you will see an array of basemap options. 
+Now, in the main QGIS interface, go to the **Web** menu at the top of your screen. You should see the QuickMapServices plugin. Hover over it until a drop-down menu appears. Go down to "Settings". In the plugin's settings, go to the "More services" tab and click "Get contributed pack." Click **save** to close settings and return to the **Web** menu. This time when you hover over the QuickMapServices plugin you will see an array of basemap options. 
 
 <img src="./images/get-contributed-pack.png" style="width:70%">
     
