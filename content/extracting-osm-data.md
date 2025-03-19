@@ -7,14 +7,16 @@ nav_order: 3
 [QuickOSM](https://docs.3liz.org/QuickOSM/) is a plugin that allows you to query and download Open Street Maps (OSM) data for specific areas directly to your local computer for offline use. Having your own copy of OSM data is useful if you're running network analysis or otherwise want to modify infrastructural spatial data. While applications like [overpass turbo](https://overpass-turbo.eu/) allow you to do something similar on the web, QuickOSM is a tool specifically designed for use within the QGIS interface. 
 
 
+<!-- <br>
+First, let's take a look at what data we could download from OSM.  -->
+
+<br>
+*1*{: .circle .circle-purple} Add the **OSM Standard** basemap to project and drag beneath your other data layers. If you zoom in and pan around, you'll see OSM Standard basemap contains buildings, street networks, and parks among other elements. These are all data we can download and use from OSM. Zoom back to `van-shoreline`.
+
+
 <br>
 
-*1*{: .circle .circle-purple} Add the **OSM Standard** basemap to project and drag beneath your other data layers. Zoom to `van-shoreline`.
-
-    
-<br>
-
-*2*{: .circle .circle-purple} From the **Plugins** menu at the top of your screen, navigate to**Manage and Install Plugins…** In the Plugins dialogue box that opens, first go to Settings and enable experimental and deprecated plugins. Return back to All and search “QuickOSM.” Install the plugin and close the dialogue box. 
+*2*{: .circle .circle-purple} From the **Plugins** menu at the top of your screen, navigate to **Manage and Install Plugins…** In the Plugins dialogue box that opens, first go to Settings and enable experimental and deprecated plugins. Return back to All and search **“QuickOSM”**. Install the plugin and close the dialogue box. 
     
 
 <br>
@@ -28,15 +30,15 @@ nav_order: 3
 *4*{: .circle .circle-purple} 
 In the dialogue box that opens, you can choose which attributes to query and download, as well as the geographic extent to query and download from. 
 
-The extent you choose will depend on what OSM data you're downloading. For instance, if you're downloading buildings or roads, you definitely don't want to download data for the whole world as this will cause your computer to crash. Set your extent to your research area. You can set the extent to a layer from your project, or draw the extent yourself  on the map canvas. **In today's workship, we will download OSM data on artwork, specifically murals, within the extent of Vancouver's shoreline. So, input the relevant parameters:**
+The extent you choose will depend on what OSM data you're downloading. For instance, if you're downloading buildings or roads, you definitely don't want to download data for the whole world as this will cause your computer to crash immediately. Set your extent to your research area. You can draw the extent on the map canvas yourself or, conveniently, you can set the extent to a layer from your project. **In today's workship, we will download OSM data on public artwork, specifically murals, within the extent of Vancouver's shoreline. So, input the relevant parameters:**
 
 ![quick osm query](./images/quick-osm-query.png)
     
 <br>
 
-If you switch to the OSM File tab in the dialog window, you can see how the tool is searching and where it's saving extracted data. Let's **keep our outputs as a temporary files for now.** 
+If you switch to the "OSM File" tab in the dialog window, you can see how the tool is searching and where it's saving extracted data. Let's **keep our outputs as a temporary files for now.** 
 
-**Run the query.**
+Return to the "Quick query" tab and **Run the query.**
     
 <br>
 <br>
