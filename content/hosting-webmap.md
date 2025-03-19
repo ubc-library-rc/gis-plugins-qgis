@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Next Steps
-nav_order: 4
-parent: Webmapping with QGIS
+nav_order: 6
+# parent: Webmapping with QGIS
 ---
 
 # Next Steps: Hosting a webmap
