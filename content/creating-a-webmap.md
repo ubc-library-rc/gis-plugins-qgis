@@ -31,7 +31,9 @@ Change the code library powering your webmap to **Leaflet**. [Leaflet](https://l
 ## 4. Set Appearance
 In the **Appearance** tab, you can specify whether your webmap has a title and abstract, or description. You can also indicate whether you want your Layers list, or legend, expanded or collapsed upon initial load.
 
-<img src="./images/appearance_20241228.png" style="width:80%">
+**Change the Template to fullscreen**. This will ensure your map takes up 100% of the screen by default, making it easier to adjust the size down the road. If we begin with it taking up only a portion of the screen, resizing becomes uncessary difficult. 
+
+<img src="./images/appearance_20250319.png" style="width:80%">
 
 
 
@@ -46,7 +48,6 @@ Uncheck minify geojson files. The files are not that large so this is not necess
     
 
 Finally, hit **export**. The run time should only be a moment as the datasets are not that large. You should get green messages if it works.
-     
 
 <img src="./images/running-qgis2web_20241228.png" style="width:50%">
 
