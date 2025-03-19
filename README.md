@@ -6,7 +6,7 @@ This workshop is meant to extend basic knowledge of QGIS by exploring common plu
 - Access dynamic basemaps hosted on web servers
 - Query and download Open Street Map (OSM) data 
 - Geocode address data from a spreadsheet, and
-- Create an interactive webmap from a QGIS project (see below for example)
+- Create an interactive webmap from a QGIS project
 
 
 **Link to workshop**: [https://ubc-library-rc.github.io/gis-plugins-qgis/](https://ubc-library-rc.github.io/gis-plugins-qgis/)
