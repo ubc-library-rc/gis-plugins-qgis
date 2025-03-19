@@ -15,6 +15,9 @@ The initial view will look something like the image below. If your screen is bla
 ![project-initial-view](./content/images/project-initial_20241214.png)
 
 
+Two data layers have been prepared for you and added to the project. These are `van-shoreline`, an outline of vancouver's shoreline, and `public-art`, a point layer visualizing public art installations around the city. Both of these were downloaded from [Vancouver's Open Data Portal](https://opendata.vancouver.ca/explore/?disjunctive.features&disjunctive.theme&disjunctive.keyword&disjunctive.data-owner&disjunctive.data-team&sort=modified).
+
+
 > You can change the way your layers are rendered by right-clicking the layer in your **Layers Panel** and going to **Properties** and then **Symbology**. You can also check the projection, metadata, and more of any layer by opening the layer **Properties**. 
 
 > You can explore a layer's associated tabular data by right-clicking the layer in your **Layers Panel** and selecting **Open Attribute Table** 
