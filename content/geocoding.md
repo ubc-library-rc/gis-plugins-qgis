@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Geocoding address data
+title: Geocoding Addresses
 nav_order: 4
 # has_children: true
 ---
 
 # Geocoding Address Data
-Geocoding is when you have a set of addresses and you want to geolocate them so as to manipulate them in a GIS. Geocoding transforms tabular data into spatial data. Reverse Geocoding is when you begin with a set of geolocated points (coordinates) and use a tool to get the addresses of each point. This page will guide you through geocoding using the [**MMQGIS** plugin](https://plugins.qgis.org/plugins/mmqgis/). 
+Geocoding is a process by which addresses are given coordinate locations, thus allowing them to be manipulated in a GIS. In other words, geocoding transforms tabular data into spatial data. Reverse Geocoding is when you begin with a set of geolocated points (coordinates) and use a tool to get the street addresses of each point. This page will guide you through geocoding using the [**MMQGIS** plugin](https://plugins.qgis.org/plugins/mmqgis/). 
 
 
 <br>
 
-*1*{: .circle .circle-purple} From the workshop data folder, add libraries.csv to your QGIS project. Because it is tabular data (in the form of a .csv, or comma separated value table) and not a spatial layer, nothing will show up on your map. Take a look at the attributes of this table. You'll see there are  street address as well as city and country attributes. We'll use these to geocode this dataset. 
+*1*{: .circle .circle-purple} From the workshop data folder, add `libraries.csv` to your QGIS project. This is a list of libraries in Vancouver, also downloaded from Vancouver's Open Data Portal. Because it is tabular data (in the form of a .csv, or comma separated value table) and not a spatial layer, nothing will show up on your map. Take a look at the attributes of this table. You'll see there are street address as well as city and country attributes. We'll use these to geocode this dataset. 
 
 <img src="./images/libraries-att-table_20241227.png" style="width:90%;">
 
@@ -25,7 +25,7 @@ Geocoding is when you have a set of addresses and you want to geolocate them so 
 
 *3*{: .circle .circle-purple} In the geocoding window that opens, chose the `libraries.csv` file as your input and leave the outputs as temporary files. The address, city, and country properties will likely auto-populate since the column names directly reference the input fields. Sometimes you *do* have to manually match the properties. 
 
-Change the web service to **Open Street Map / Nominatim**. Hit apply. There are 22 rows in the library dataset so 22 points should be geocoded. The output csv that indicates what wasn't matched should be empty. 
+Change the web service to **Open Street Map / Nominatim**. Hit apply. There are 21 rows in the library dataset so 21 points should be geocoded. The output csv that indicates what wasn't matched should be empty. 
 
 <img src="./images/geocoding-window_20241227.png" style="width:80%;">
 
