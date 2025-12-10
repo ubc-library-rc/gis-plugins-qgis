@@ -1,13 +1,7 @@
 # Plugins in QGIS
 ### UBC Library Research Commons
 
-This workshop is meant to extend basic knowledge of QGIS by exploring common plugins. Familiarity of the QGIS is therefore a prerequisite. By the end of this workshop, participants will be able to use plugins to 
-
-- Access dynamic basemaps hosted on web servers
-- Query and download Open Street Map (OSM) data 
-- Geocode address data from a spreadsheet, and
-- Create an interactive webmap from a QGIS project
-
+Description: This workshop is meant to extend basic knowledge of QGIS by exploring common plugins. Familiarity of the QGIS is therefore a prerequisite. 
 
 **Link to workshop**: [https://ubc-library-rc.github.io/gis-plugins-qgis/](https://ubc-library-rc.github.io/gis-plugins-qgis/)
 
