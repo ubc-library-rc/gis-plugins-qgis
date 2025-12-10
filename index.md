@@ -39,7 +39,7 @@ This workshop is meant to extend basic knowledge of QGIS by exploring common plu
 
 ---
 #### GIS Resources at UBC:
-- General Informational website for all things UBC GIS: [gis.ubc.ca](http://gis.ubc.ca/)
+<!-- - General Informational website for all things UBC GIS: [gis.ubc.ca](http://gis.ubc.ca/) -->
 - UBC Library's guide for finding and working with GIS resources: [guides.library.ubc.ca/gis](http://guides.library.ubc.ca/gis)
 - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com/)
 - Archive of all [Research Commons workshops](https://ubc-library-rc.github.io/)
